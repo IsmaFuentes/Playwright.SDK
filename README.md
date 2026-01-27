@@ -47,15 +47,17 @@ Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(products));
 
 ---
 
+
+## Resultado Extracción de datos
+
+<p align="center">
+  <img src="assets/webscraping.png" alt="Demostración de web scraping con Playwright.SDK">
+</p>
+
+
 ## Tecnologías
 
 - **.NET 10**
 - **Microsoft.Playwright**
 
 ---
-
-## Demo
-
-<p align="center">
-  <img src="assets/webscraping.png" alt="Demostración de web scraping con Playwright.SDK">
-</p>
