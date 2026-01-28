@@ -1,30 +1,29 @@
 # Playwright.SDK
 
-Proyecto experimental para explorar la funcionalidad de **Microsoft.Playwright** y la automatización de navegadores web.
+Experimental project to play around **Microsoft.Playwright** and it's web automation and scraping capabilities.
 
-> ⚠️ Este proyecto es solo para aprendizaje y demostración personal. No está pensado para producción.
+> ⚠️ This project is for learning and personal demonstration purposes only. It is not intended for production.
 
 ---
 
-## Descripción
+## Description
 
-**Playwright.SDK** permite navegar, interactuar y extraer datos de páginas web de forma programática, ideal como **proof of concept** para automatización de navegadores y web scraping.
-- Funciona de forma similar a **Puppeteer**
+**Playwright.SDK** allows navigating and interacting with a web browser programatically. This can be useful for web automation (testing) and scraping.
+- Works similarly to **Puppeteer** 
 
 ---
 
 ## Características principales
 
-- **Soporte multi-navegador**: Chromium, Firefox y más
-- **Modos de visualización**: Headless o visible
-- **Interacción completa**: Clicks, navegación, espera de selectores
-- **Extracción de datos estructurados**: Obtención dinámica de información haciendo uso de  `dynamic[]`
-- **Ejecución de JavaScript**: Ejecuta código personalizado en el contexto del navegador
-- **Exportación JSON**: Serializa los datos extraídos en formato JSON
+- **Multi-browser support**: Chromium, Firefox and more
+- **Visualization modes**: Headless or visible
+- **Complete interaction**: Clicks, navigation, wating for selectors and code execution
+- **Data extraction in structured format**: Makes use of `dynamic[]` without strong typing
+- **JavaScript execution**: Allows JavaScript execution in the browser's context
 
 ---
 
-## Ejemplo de uso 🚀
+## Usage
 
 ```csharp
 var driver = await Playwright.SDK.DriverFactory.CreateDriver();
@@ -48,14 +47,14 @@ Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(products));
 ---
 
 
-## Resultado Extracción de datos
+## Example
 
 <p align="center">
   <img src="assets/webscraping.png" alt="Demostración de web scraping con Playwright.SDK">
 </p>
 
 
-## Tecnologías
+## Technologies
 
 - **.NET 10**
 - **Microsoft.Playwright**
