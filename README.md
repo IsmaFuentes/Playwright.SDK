@@ -13,7 +13,7 @@ Experimental project to play around **Microsoft.Playwright** and it's web automa
 
 ---
 
-## Características principales
+## Main features
 
 - **Multi-browser support**: Chromium, Firefox and more
 - **Visualization modes**: Headless or visible
