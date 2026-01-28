@@ -50,7 +50,7 @@ Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(products));
 ## Example
 
 <p align="center">
-  <img src="assets/webscraping.png" alt="Demostración de web scraping con Playwright.SDK">
+  <img src="assets/demo.png" alt="Demostración de web scraping con Playwright.SDK">
 </p>
 
 
